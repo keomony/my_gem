@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+require 'my_gem'
+
+MyGem::Greeting.say_hello("Mony")
