@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+require 'my_gem'
+
+puts MyGem::ApiIfy.get_file_name(ARGV[0])
